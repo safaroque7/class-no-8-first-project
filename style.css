@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: bisque;
 }
 
 .header {
@@ -156,4 +157,56 @@ body {
 
 .past_speakers_full_width {
   margin-bottom: 40px;
+}
+
+.breadcrumb-design-full-width {
+  background-color: #999999;
+}
+
+.breadcrumb-design {
+  width: 1240px;
+  margin: auto;
+  padding: 61px 0;
+  margin-bottom: 50px;
+}
+
+.breadcrumb-design h2 {
+  text-transform: uppercase;
+}
+
+.lectures-box {
+  width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lectures-box-item {
+  width: 30%;
+}
+
+.lectures-box-item h3 {
+  padding: 18px 0;
+}
+
+.lectures-box-item h2 {
+  padding: 20px 0;
+}
+
+.lectures-box-item {
+  border-bottom: 5px solid red;
+  padding-bottom: 28px;
+  margin-bottom: 33px;
+  background: white;
+}
+
+.lectures-box-item img {
+  max-width: 100%;
+}
+
+.lectures-box-item h3,
+.lectures-box-item h2,
+.lectures-box-item p {
+  padding: 18px;
 }
